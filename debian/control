@@ -1,0 +1,15 @@
+Source: astian-wallpapers
+Section: devel
+Priority: optional
+Maintainer: Astian_OS Team <contact@astian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               extra-cmake-modules
+Standards-Version: 4.5.0
+Homepage: https://astian.org
+
+Package: astian-wallpapers
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Description: Astian_OS Default Wallpapers
